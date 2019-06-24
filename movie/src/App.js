@@ -1,15 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Component/Navbar';
-import Content from './Component/Content';
-import Footer from './Component/Footer';
+import React, { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import './App.sass';
 
 
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add('has-navbar-fixed-top');
+  }, []);
+
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Content />
       <Footer />
