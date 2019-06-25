@@ -7,10 +7,11 @@ const Title = styled.a`
   }
 `;
 
-const Image = styled.img`
-    height: 300px;
-    width: 400px;
-`
+const ReleaseD = styled.a`
+margin-bottom:0px;
+padding-right: -100px;
+`;
+
 
 function NewMovie({ key, image, title, description, rate, date }) {
     return (
@@ -33,7 +34,13 @@ function NewMovie({ key, image, title, description, rate, date }) {
                         </div>
                     </div>
                 </div>
+
             </div>
+            <ReleaseD>
+                <div className="title is-6">
+                <h1>Rease date: {date}</h1>
+                </div>
+            </ReleaseD>
         </article>
     );
 }
