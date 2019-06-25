@@ -7,9 +7,10 @@ const Title = styled.a`
   }
 `;
 
-const ReleaseD = styled.a`
+const ReleaseD = styled.h1`
 margin-bottom:0px;
-padding-right: -100px;
+font-size: 1.5em;
+text-align: right;
 `;
 
 
@@ -30,6 +31,7 @@ function NewMovie({ key, image, title, description, rate, date }) {
                 <div className="level">
                     <div className="level-right">
                         <div className="level-item">
+
                             <h1>{rate}</h1>
                         </div>
                     </div>

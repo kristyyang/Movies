@@ -48,30 +48,6 @@ function Content() {
                     </div>
                 </div>
             </section>
-            <div className="container has-text-centered">
-                <ContentPadding>
-                    <p className="subtitle">
-                        Find your favorite movies here <span role="img" aria-label="kiss">😘</span>
-                    </p>
-                    <div className="field">
-                        <div className="control">
-                            <input className="input is-rounded" type="text" placeholder="Movie Name" />
-                        </div>
-                    </div>
-                    <div className="level">
-                        <div className="level-left">
-                            <div className="level-item">
-                                <button className="button is-primary is-rounded is-focused has-text-weight-semibold has-icons-left">Submit</button>
-                            </div>
-                        </div>
-                        <div className="level-right">
-                            <div className="level-item">
-                                <a className="button is-link is-rounded  is-focused has-text-weight-semibold" href="https://www.themoviedb.org/">I want to have good time</a>
-                            </div>
-                        </div>
-                    </div>
-                </ContentPadding>
-            </div>
         </div>
     )
 }
