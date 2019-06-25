@@ -5,9 +5,8 @@ import styled from 'styled-components';
 const PBottom = styled.div`
     padding-bottom: 0.0rem;
 `;
-function Footer(params) {
+function Footer() {
     return (
-
         <div className="section">
             <footer className="footer">
 
