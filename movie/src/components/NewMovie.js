@@ -15,6 +15,7 @@ text-align: right;
 
 
 function NewMovie({ key, image, title, description, rate, date }) {
+    const hStyle = { color: 'red' };
     return (
         <article className="box">
             <div className="media">
@@ -31,8 +32,10 @@ function NewMovie({ key, image, title, description, rate, date }) {
                 <div className="level">
                     <div className="level-right">
                         <div className="level-item">
-
-                            <h1>{rate}</h1>
+                            <h1 tyle={ hStyle }>
+                        { rate < 5 ? rate : (rate > 5 && rate < 8) ? 'lose' :'okay' }
+                        </h1>
+                            {/* <h1>{rate > 5?<div className="title title-color">{rate}</div>:{rate}}</h1> */}
                         </div>
                     </div>
                 </div>
