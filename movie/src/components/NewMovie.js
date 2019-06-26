@@ -13,9 +13,21 @@ font-size: 1.5em;
 text-align: right;
 `;
 
+const Rating = styled.h1`
+    color: ${props => {
+        const rating = props.rating;
+        if (rating > 8) {
+            return 'green'
+        } else if (rating < 5) {
+            return 'red';
+        } else {
+            return 'yellow';
+        }
+    }};
+`
+
 
 function NewMovie({ key, image, title, description, rate, date }) {
-    const hStyle = { color: 'red' };
     return (
         <article className="box">
             <div className="media">
@@ -32,10 +44,7 @@ function NewMovie({ key, image, title, description, rate, date }) {
                 <div className="level">
                     <div className="level-right">
                         <div className="level-item">
-                            <h1 tyle={ hStyle }>
-                        { rate < 5 ? rate : (rate > 5 && rate < 8) ? 'lose' :'okay' }
-                        </h1>
-                            {/* <h1>{rate > 5?<div className="title title-color">{rate}</div>:{rate}}</h1> */}
+                            <Rating rating={rate}>{rate}</Rating>
                         </div>
                     </div>
                 </div>
@@ -43,7 +52,7 @@ function NewMovie({ key, image, title, description, rate, date }) {
             </div>
             <ReleaseD>
                 <div className="title is-6">
-                <h1>Rease date: {date}</h1>
+                    <h1>Rease date: {date}</h1>
                 </div>
             </ReleaseD>
         </article>
