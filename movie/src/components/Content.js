@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
 import axios from 'axios';
 import NewMovie from './NewMovie';
 
-const ContentPadding = styled.p`
-    padding-top: 0.6rem;
-`;
 
 
 function Content() {
@@ -35,9 +31,8 @@ function Content() {
                 <div className="hero-body">
                     <div className="columns is-multiline">
                         {movies && movies.map((movie, idx) => (
-                            <div className="column is-12-tablet is-6-desktop is-4-widescreen">
+                            <div key={idx} className="column is-12-tablet is-6-desktop is-4-widescreen">
                                 <NewMovie
-                                    key={idx}
                                     image={movie.poster}
                                     title={movie.title}
                                     description={movie.overview}

@@ -14,6 +14,8 @@ text-align: right;
 `;
 
 const Rating = styled.h1`
+font-weight: bold;
+font-size: 1.2em;
     color: ${props => {
         const rating = props.rating;
         if (rating > 8) {
@@ -21,7 +23,7 @@ const Rating = styled.h1`
         } else if (rating < 5) {
             return 'red';
         } else {
-            return 'yellow';
+            return 'orange';
         }
     }};
 `
