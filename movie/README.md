@@ -13,6 +13,9 @@
 ## Website Snapshots
 
 ![snapshot 1](snapshot_1.png)
+
+### End of pages
+
 ![snapshot 2](snapshot_2.png)
 
 ## Group Members
