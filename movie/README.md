@@ -22,6 +22,19 @@
 
 - Kristy Yang ([@kristyyang](https://github.com/kristyyang))
 
+## Project Setup
+
+Before you setup this project, make sure you already have [yarn](https://yarnpkg.com/en/) installed.
+
+```bash
+git clone https://github.com/kristyyang/Movies
+cd Movies
+yarn install
+yarn start
+```
+
+Open you browser and visit `localhost:3000`.
+
 ## Project Description
 
 ### Who is it for?
