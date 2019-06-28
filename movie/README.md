@@ -67,6 +67,7 @@ Unit tests for the display component are pretty easy.
 
 ### Test case 3: Content component(Testing Hooks)
 
+- Using a callback to pass the result of our custom hook in the outside scope where we want to test it.
 - We can use react-testing-library testing library to test React Hooks.
 
 #### Test case 3.1: Rating color
@@ -77,6 +78,31 @@ Unit tests for the display component are pretty easy.
 - If movie rate is below 5, number should be display in red
 - If movie rate is between 5 and 8, number should be display yellow
 - If movie rate is above 8, number should be green
+```
+
+#### Test case 3.2: Movie name
+
+```
+- Movie names' data type as String and correspond to right movie name(real movie name not descriptions or something else)
+```
+
+
+#### Test case 3.3: Movie Poster
+
+```
+- Movie poster with fixed size and right link
+```
+
+#### Test case 3.4: Average rate
+
+```
+- Movie average rates' data type as float
+```
+
+#### Test case 3.5: Release date
+
+```
+- Movie Release date correspond right data type
 ```
 
 ### Test case 4: Footer Components
