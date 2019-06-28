@@ -60,3 +60,13 @@ Unit tests for the display component are pretty easy.
 - If movie rate is between 5 and 8, number should be display yellow
 - If movie rate is above 8, number should be green
 ```
+
+### Test case 2: Navbar component
+
+- Make sure Navbar component
+
+```
+- Given no arguments: should give the correct theatre name.
+```
+
+### Test case 3:
