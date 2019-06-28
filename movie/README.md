@@ -6,6 +6,9 @@
   - [Project Description](#Project-Description)
     - [Who is it for?](#Who-is-it-for)
     - [What will it do?](#What-will-it-do)
+  - [Testing Cases](#Testing-Cases)
+    - [Unit Test](#)
+
 
 ## Website Snapshots
 
@@ -41,3 +44,19 @@ The project we are aiming to build is a online info board for users who are inte
 ### What will it do?
 
 We will be presenting a list of tables of movies, it will represent moveies post and information, rating and movie descriptions.
+
+## Testing Cases
+
+### Unit Tests
+
+Unit tests for the display component are pretty easy.
+
+### Test case 1: Rating color
+
+- Make sure rating correspond to right color
+
+```
+- If movie rate is below 5, number should be display in red
+- If movie rate is between 5 and 8, number should be display yellow
+- If movie rate is above 8, number should be green
+```
