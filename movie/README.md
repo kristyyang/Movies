@@ -47,6 +47,12 @@ We will be presenting a list of tables of movies, it will represent moveies post
 
 ## Testing Cases
 
+####  Jest or Enzyme used for testing React apps
+
+- Jest is JavaScript testing framework used to test JavaScript apps
+
+- Enzyme is a JavaScript testing utility for React that makes it easier to assert,  manipulate, and traverse your React Components’ output.
+
 ### Unit Tests
 
 Unit tests for the display component are pretty easy.
@@ -66,7 +72,9 @@ Unit tests for the display component are pretty easy.
 - Make sure Navbar component
 
 ```
-- Given no arguments: should give the correct theatre name.
+- Given no arguments: should give the correct theatre name. (AquaNow movie theatre)
 ```
 
-### Test case 3:
+### Test case 3: Content component
+
+- We can use react-testing-library testing library to test React Hooks.
