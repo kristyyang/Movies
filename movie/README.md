@@ -6,9 +6,6 @@
   - [Project Description](#Project-Description)
     - [Who is it for?](#Who-is-it-for)
     - [What will it do?](#What-will-it-do)
-  - [Minimum Requirement Task BreakDown](#Minimum-Requirement-Task-BreakDown)
-    - [Requirement 1: Category Box for a Given Company](#Requirement-1-Category-Box-for-a-Given-Company)
-    - [Requirement 2: Graphical representation of the price movement using charts](#Requirement-2-Graphical-representation-of-the-price-movement-using-charts)
 
 ## Website Snapshots
 
