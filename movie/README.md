@@ -57,7 +57,19 @@ We will be presenting a list of tables of movies, it will represent moveies post
 
 Unit tests for the display component are pretty easy.
 
-### Test case 1: Rating color
+### Test case 1: Navbar component
+
+- Make sure Navbar component
+
+```
+- Given no arguments: should give the correct theatre name. (AquaNow movie theatre)
+```
+
+### Test case 3: Content component(Testing Hooks)
+
+- We can use react-testing-library testing library to test React Hooks.
+
+#### Test case 3.1: Rating color
 
 - Make sure rating correspond to right color
 
@@ -66,15 +78,3 @@ Unit tests for the display component are pretty easy.
 - If movie rate is between 5 and 8, number should be display yellow
 - If movie rate is above 8, number should be green
 ```
-
-### Test case 2: Navbar component
-
-- Make sure Navbar component
-
-```
-- Given no arguments: should give the correct theatre name. (AquaNow movie theatre)
-```
-
-### Test case 3: Content component
-
-- We can use react-testing-library testing library to test React Hooks.
