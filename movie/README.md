@@ -59,7 +59,7 @@ Unit tests for the display component are pretty easy.
 
 ### Test case 1: Navbar component
 
-- Make sure Navbar component
+- Make sure returning right title
 
 ```
 - Given no arguments: should give the correct theatre name. (AquaNow movie theatre)
@@ -77,4 +77,13 @@ Unit tests for the display component are pretty easy.
 - If movie rate is below 5, number should be display in red
 - If movie rate is between 5 and 8, number should be display yellow
 - If movie rate is above 8, number should be green
+```
+
+### Test case 4: Footer Components
+
+-  Make sure returning author name and link is clickable
+
+```
+- Given no arguments: should give the correct author name.
+- Given no arguments: should give the clickable link.
 ```
