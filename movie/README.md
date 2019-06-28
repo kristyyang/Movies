@@ -62,7 +62,7 @@ Unit tests for the display component are pretty easy.
 - Make sure returning right title
 
 ```
-- Given no arguments: should give the correct theatre name. (AquaNow movie theatre)
+- should give the correct theatre name. (AquaNow movie theatre)
 ```
 
 ### Test case 3: Content component(Testing Hooks)
@@ -110,6 +110,6 @@ Unit tests for the display component are pretty easy.
 -  Make sure returning author name and link is clickable
 
 ```
-- Given no arguments: should give the correct author name.
-- Given no arguments: should give the clickable link.
+- should give the correct author name.
+- should give the clickable link.
 ```
